@@ -1,4 +1,4 @@
-python==3.10.12
+python-3.10.5
 bidict==0.22.1
 blinker==1.6.2
 click==8.1.3
