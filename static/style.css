@@ -73,7 +73,6 @@ h2{
 body{
     background-color: black;
     color:white;
-    overflow-y: scroll;
 }
 
 button:hover{
@@ -97,9 +96,14 @@ button{
     color: yellow;    
 }
 
+.container{
+    position:relative;      
+}
+
 .disclaimer{
-    position:fixed;
-    bottom: 0;
+    position:absolute;
+    padding-top:20px;
+    
 }
 
 

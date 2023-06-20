@@ -1,5 +1,7 @@
 {% extends 'base.html'%}
 {%block content%}
+
+<div class="container">
 <form method="post" class="buttons">
     <h3>聊天室 Chat Room</h3>
     <div>
@@ -16,13 +18,14 @@
         <li>{{error}}</li>
     </ul>
     {% endif %}
-    <div class="disclaimer">Disclaimer: The developer of this chat room is not responsible for the actions, behavior, or content exchanged by users within the chat 
-        room. The chat room is provided as a platform for communication and interaction, and the developer does not assume any liability for the 
-        accuracy, completeness, or appropriateness of the discussions held within. Users are solely responsible for their own conduct and the info
-        rmation they choose to share. The developer disclaims any responsibility for any harm, loss, or damages that may arise from the use of 
-        this chat room. By using this chat room, you acknowledge and agree to this disclaimer.</div>
 </form>
 
+<div class="disclaimer">Disclaimer: The developer of this chat room is not responsible for the actions, behavior, or content exchanged by users within the chat 
+    room. The chat room is provided as a platform for communication and interaction, and the developer does not assume any liability for the 
+    accuracy, completeness, or appropriateness of the discussions held within. Users are solely responsible for their own conduct and the info
+    rmation they choose to share. The developer disclaims any responsibility for any harm, loss, or damages that may arise from the use of 
+    this chat room. By using this chat room, you acknowledge and agree to this disclaimer.</div>
+</div>
 
 
 
