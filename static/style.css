@@ -96,8 +96,8 @@ button{
     color: yellow;    
 }
 
-p{
-    position: fixed;
+.disclaimer{
+    position: absolute;
     bottom: 0;
 }
 
