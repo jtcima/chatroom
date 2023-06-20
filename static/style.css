@@ -103,7 +103,7 @@ button{
 .disclaimer{
     position:absolute;
     padding-top:20px;
-    
+    text-align: justify;
 }
 
 
